@@ -458,7 +458,7 @@
     <div>
       <div class="eyebrow">status: open to opportunities</div>
       <h1 class="hero-title">Securing networks,<br>one <span>connection</span> at a time.</h1>
-      <p class="hero-sub">I'm Youssif — a Computer Science student at the Egyptian Chinese University, focused on networking, cybersecurity, and IT infrastructure. Looking for an internship or entry-level role where I can put that into practice.</p>
+      <p class="hero-sub">I'm Youssif — a Computer Science student at Cairo University, focused on networking, cybersecurity, and IT infrastructure. Looking for an internship or entry-level role where I can put that into practice.</p>
       <div class="btn-row">
         <a class="btn primary" href="#contact"><span class="pulse"></span>Get in touch</a>
         <a class="btn" href="https://www.linkedin.com/in/youssif-mandour-0a3062330" target="_blank" rel="noopener"><span class="pulse"></span>View LinkedIn</a>
@@ -467,7 +467,7 @@
     <div class="terminal reveal">
       <div class="terminal-bar">
         <span class="tdot r"></span><span class="tdot y"></span><span class="tdot g"></span>
-        <span class="terminal-title">youssif@ecu: ~</span>
+        <span class="terminal-title">youssif@cu: ~</span>
       </div>
       <div class="terminal-body" id="typedTerminal"></div>
     </div>
@@ -479,7 +479,7 @@
     <div class="reveal">
       <div class="eyebrow">01 · about</div>
       <h2 style="margin-bottom:20px;">Who I am</h2>
-      <p class="about-text">I'm a <strong>Computer Science student at the Egyptian Chinese University (ECU)</strong>, building a foundation in networking and cybersecurity from the ground up. I like understanding how systems actually talk to each other — and how to keep that conversation safe.</p>
+      <p class="about-text">I'm a <strong>Computer Science student at Cairo University</strong>, building a foundation in networking and cybersecurity from the ground up. I like understanding how systems actually talk to each other — and how to keep that conversation safe.</p>
       <p class="about-text" style="margin-top:16px;">Outside of coursework, I'm working through certifications and hands-on labs so I can walk into an internship already speaking the language of the field.</p>
       <div class="stat-row">
         <div class="stat-card"><div class="num">3</div><div class="lbl">CERTIFICATIONS</div></div>
@@ -576,7 +576,7 @@
         </div>
         <div>
           <h3>Bachelor of Computer Science</h3>
-          <div class="school">Egyptian Chinese University (ECU)</div>
+          <div class="school">Cairo University</div>
         </div>
       </div>
       <div class="edu-status">IN PROGRESS</div>
@@ -647,11 +647,11 @@
 <script>
 // ---------- Terminal typing effect ----------
 const lines = [
-  {p:'youssif@ecu', path:'~', cmd:'whoami'},
-  {out:'Youssif Mohamed Fawzy — CS student, ECU'},
-  {p:'youssif@ecu', path:'~', cmd:'cat focus.txt'},
+  {p:'youssif@cu', path:'~', cmd:'whoami'},
+  {out:'Youssif Mohamed Fawzy — CS student, Cairo University'},
+  {p:'youssif@cu', path:'~', cmd:'cat focus.txt'},
   {out:'Networking · Cybersecurity · IT Infrastructure'},
-  {p:'youssif@ecu', path:'~', cmd:'status --check'},
+  {p:'youssif@cu', path:'~', cmd:'status --check'},
   {out:'✓ open to internships & entry-level roles'},
 ];
 const termEl = document.getElementById('typedTerminal');
@@ -659,7 +659,7 @@ let li = 0, ci = 0;
  
 function typeLine(){
   if(li >= lines.length){
-    termEl.innerHTML += '<div><span class="prompt">youssif@ecu</span>:<span class="path">~</span>$<span class="caret"></span></div>';
+    termEl.innerHTML += '<div><span class="prompt">youssif@cu</span>:<span class="path">~</span>$<span class="caret"></span></div>';
     return;
   }
   const line = lines[li];
